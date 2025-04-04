@@ -269,4 +269,4 @@ async def lazada_auth(request: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("test:app", host="0.0.0.0", port=8000, reload=True)
