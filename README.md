@@ -6,5 +6,5 @@ Step 0 (Optional): Create a virtual environment using command ```python venv -m 
 Step 1: Install requirements using command ```pip install requirements.txt``` \
 Step 2: Add keys in key.env \
 Step 3: install ngrok if you don't have it and create a public http on port 8000 using command ```ngrok http 8000``` \
-Step 4: copy the url and paste it in the code ```test.py``` > Global variable ```URL```. \
+Step 4: copy the url and paste it in the code ```test.py``` > Global variable ```URL```. Use the same url and paste it into Lazada Account > App Management > Edit TwilioTest App > Push Configuration > Enter/paste the same url there. \
 Step 5: run the python program using the command ```python test.py``` or ```uvicorn test:app --host 0.0.0.0 --port 8000 --reload``` \
